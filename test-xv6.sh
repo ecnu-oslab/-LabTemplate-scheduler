@@ -6,4 +6,4 @@
 
 cd "$(dirname "$0")"
 
-python2 ./tests/run-tests.py --test-path ./tests --project-path ./xv6
+python2 ./tests/run-tests.py --test-path ./tests --project-path ./xv6 $@
